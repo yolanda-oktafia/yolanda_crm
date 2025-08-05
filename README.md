@@ -47,6 +47,7 @@ bash
 composer install
 php artisan key:generate
 php artisan migrate
+npm run dev
 php artisan serve
 Buka browser dan akses http://127.0.0.1:8000
 
