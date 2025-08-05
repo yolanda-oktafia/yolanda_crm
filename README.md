@@ -44,12 +44,14 @@ Tanggal 1 Agustus 2025: Pukul 14.00 – 17.00 WIB
 3. Jalankan perintah berikut:
 
 bash
-composer install
-php artisan key:generate
-php artisan migrate
-npm run dev
-php artisan serve
+composer install |
+php artisan key:generate |
+php artisan migrate |
+npm run dev |
+php artisan serve |
 Buka browser dan akses http://127.0.0.1:8000
+
+4. untuk ERD bisa di akses di: http://127.0.0.1:8000/laravel-erd
 
 Untuk konfigurasi database, gunakan PostgreSQL dan sesuaikan data pada file .env.
 Saya menyadari aplikasi ini masih jauh dari sempurna. Beberapa fitur seperti approval manager pada project masih dasar dan belum kompleks. Namun, saya harap pengerjaan saya pada tes ini menjadi pertimbangan Bapak/Ibu untuk menerima saya sebagai Internship di PT Dutakom Wibawa Putra.
